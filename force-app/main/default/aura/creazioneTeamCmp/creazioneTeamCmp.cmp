@@ -1,0 +1,8 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+<c:creazioneTeamLwc>
+
+
+
+
+</c:creazioneTeamLwc>
+</aura:component>	

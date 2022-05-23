@@ -20,6 +20,7 @@
         <type>Flexipage</type>
         <profile>Admin</profile>
     </profileActionOverrides>
+    <tabs>standard-home</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Fantacalcio_UtilityBar</utilityBar>
 </CustomApplication>
