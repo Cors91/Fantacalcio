@@ -1,8 +1,12 @@
-<aura:component implements="flexipage:availableForAllPageTypes" access="global">
-<c:CreazioneRosaLwc>
+<aura:component implements="flexipage:availableForAllPageTypes,lightning:isUrlAddressable" access="global">
+    <aura:attribute type="Team__c" name="oggettoTeam"/>
+    <aura:handler name='init' value="{!this}" action="{!c.doInit}"/>
+    <c:creazioneRosaLwc team="{!v.oggettoTeam}">
 
 
 
 
-</c:CreazioneRosaLwc>
+
+
+    </c:creazioneRosaLwc>
 </aura:component>	
